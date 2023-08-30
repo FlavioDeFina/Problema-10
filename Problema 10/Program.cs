@@ -20,7 +20,7 @@ namespace Problema_10
                 subtotal = consumo - descuento;
                 importe = consumo - descuento + impuesto;
             }
-            if (consumo > 100) 
+            if (consumo > 100); 
             {
                 descuento = consumo * 0.2;
                 impuesto = consumo * 0.18;
